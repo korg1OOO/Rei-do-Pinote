@@ -9,5 +9,5 @@ setTimeout(loadApp, 5000);
 
 document.getElementById('login-form').addEventListener('submit', function(enviar) {
     enviar.preventDefault();
-    window.location.href = 'servicos.html';
+    window.location.href = 'html/servicos.html';
 });
